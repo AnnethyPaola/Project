@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "title": "tarea 1",
+        "description": "description tarea 1",
+        "score": 0,
+        "status": 0,
+        "level": 0,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "2",
+        "title": "tarea 2",
+        "description": "description tarea 2",
+        "score": 1,
+        "status": 1,
+        "level": 1,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "3",
+        "title": "tarea 3",
+        "description": "description tarea 3",
+        "score": 2,
+        "status": 2,
+        "level": 2,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "4",
+        "title": "tarea 4",
+        "description": "description tarea 4",
+        "score": 3,
+        "status": 0,
+        "level": 3,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "5",
+        "title": "tarea 5",
+        "description": "description tarea 5",
+        "score": 4,
+        "status": 1,
+        "level": 1,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "6",
+        "title": "tarea 6",
+        "description": "description tarea 6",
+        "score": 5,
+        "status": 2,
+        "level": 2,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "7",
+        "title": "tarea 7",
+        "description": "description tarea 7",
+        "score": 6,
+        "status": 0,
+        "level": 3,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "8",
+        "title": "tarea 8",
+        "description": "description tarea 8",
+        "score": 7,
+        "status": 1,
+        "level": 1,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "9",
+        "title": "tarea 9",
+        "description": "description tarea 9",
+        "score": 8,
+        "status": 2,
+        "level": 2,
+        "authorId": 1,
+        "deleted": false
+    },
+    {
+        "id": "10",
+        "title": "tarea 10",
+        "description": "description tarea 10",
+        "score": 9,
+        "status": 0,
+        "level": 3,
+        "authorId": 1,
+        "deleted": false
+    }
+]
