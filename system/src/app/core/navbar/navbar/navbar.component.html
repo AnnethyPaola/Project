@@ -1,3 +1,17 @@
-<p>
-  navbar works!
-</p>
+<mat-toolbar color="primary" fxLayout="row" fxLayoutAlign="space-between center">
+  <span style="flex: 1">
+    <button mat-button routerLink="/home">{{title}}</button>
+  </span>
+  <span style="flex: 1">
+    <button mat-button routerLink="/tasks/list">Tareas</button>
+  </span>
+  <span style="flex: 1; margin-right: 20px;" fxLayoutAlign="end center">
+    <button mat-button routerLink="/users/list">Usuarios</button>
+  </span>
+
+  <span style="flex: 0">
+    <button mat-button (click)="logout()">
+      <mat-icon>exit_to_app</mat-icon> Cerrar sesión
+    </button>
+  </span>
+</mat-toolbar>

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from '../../../shared/services/Auth/auth.service';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,9 +10,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  public loginForm!: FormGroup;
+
+  constructor(
+    private fb: FormBuilder,
+    private authService: AuthService,
+    private router: Router) { }
 
   ngOnInit() {
+    this.setFormLogin();
+  }
+
+  public setFormLogin(): void {
+    this.loginForm = this.fb.group({
+      email: ['', [Validators.required]],
+      password: ['', [Validators.required]]
+    });
+  }
+
+  public login(): void {
+    const formValue = this.loginForm.value
+    
+    this.authService.login(formValue.email, formValue.password).subscribe(
+      success => {
+        if (success) {
+          this.router.navigate(['/home']);
+        } else {
+          alert('Error al iniciar sesion');
+        }
+      },
+      error => alert('Error al iniciar sesion')
+    );
   }
 
 }

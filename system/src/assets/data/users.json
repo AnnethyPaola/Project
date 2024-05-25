@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "email": "juan.perez@gmail.com",
+        "userName": "juan.perez",
+        "password": "Juan2024!",
+        "status": 0,
+        "deleted": false
+    },
+    {
+        "id": 2,
+        "email": "maria.gomez@gmail.com",
+        "userName": "maria.gomez",
+        "password": "Maria@123",
+        "status": 0,
+        "deleted": false
+    },
+    {
+        "id": 3,
+        "email": "carlos.fernandez@gmail.com",
+        "userName": "carlos.fernandez",
+        "password": "Carlos$456",
+        "status": 0,
+        "deleted": false
+    },
+    {
+        "id": 4,
+        "email": "ana.lopez@gmail.com",
+        "userName": "ana.lopez",
+        "password": "Ana!789",
+        "status": 0,
+        "deleted": false
+    },
+    {
+        "id": 5,
+        "email": "luis.martinez@gmail.com",
+        "userName": "luis.martinez",
+        "password": "Luis#1010",
+        "status": 0,
+        "deleted": false
+    },
+    {
+        "id": 6,
+        "email": "usuario.martinez@gmail.com",
+        "userName": "luis.martinez",
+        "password": "usuario02",
+        "status": 0,
+        "deleted": false
+    }
+]

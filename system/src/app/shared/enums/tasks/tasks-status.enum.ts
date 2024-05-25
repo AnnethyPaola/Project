@@ -1,6 +1,6 @@
 export enum TasksStatus {
-    pendings,
-    completed,
-    inProgress,
-    stopper
+    Pending,
+    Completed,
+    InProgress,
+    Stopper
 }
